@@ -1,0 +1,17 @@
+{
+  "name": "tiny-lexer",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "lexer": "ts-node tiny_lexer.ts",
+    "parser": "ts-node expr_parser.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

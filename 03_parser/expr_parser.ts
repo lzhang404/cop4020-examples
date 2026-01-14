@@ -6,9 +6,9 @@
 //   Factor ::= "(" Expr ")" | NUM
 //
 // Run with:
-//   npm run parser -- "1 + 2 * 3"
-//   npm run parser -- "(1 + 2) * 3"
-//   npm run parser -- "10 - 4 * (2 + 1)"
+//   npx ts-node 03_parser/expr_parser.ts "1 + 2 * 3"
+//   npx ts-node 03_parser/expr_parser.ts  "(1 + 2) * 3"
+//   npx ts-node 03_parser/expr_parser.ts "10 - 4 * (2 + 1)"
 //
 
 

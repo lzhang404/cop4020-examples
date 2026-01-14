@@ -1,4 +1,4 @@
-// run with npm run lexer -- "let sum = a + 10;"
+// run with npx ts-node 02_lexer/tiny_lexer.ts "let sum = a + 10;"
 // 1. Define token types
 const TokenType = {
   LET: "LET",
